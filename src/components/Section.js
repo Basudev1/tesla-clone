@@ -14,6 +14,7 @@ function Section() {
       </ButtonGroup>
       <DownedArrow src="./images/down-arrow.svg"/>
       </Buttons>
+      
     </Wrap>
   );
 }
@@ -38,6 +39,10 @@ const ItemText = styled.div`
 const ButtonGroup = styled.div`
 display: flex;
 margin-bottom: 30px;
+@media (max-width: 768px) {
+  flex-direction: column;
+
+}
 `;
 const LeftButton = styled.div`
 color: white;
@@ -56,12 +61,20 @@ margin: 8px;
 
 `;
 const RightButton = styled(LeftButton)`
+background: white;
+opacity: 0.65;
+color: black;
 `;
 
 const DownedArrow = styled.img`
-margin-top: 20px;
 height: 40px;
 animation: amimateDown infinite 1.5s;
+margin: 8px;
+margin-left: 248px;
+@media (max-width: 768px) {
+  margin-left: 107px;
+  
+}
 `;
 
 const Buttons = styled.div`
