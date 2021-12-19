@@ -29,7 +29,26 @@ function Home() {
       backgroundImg="model-x.jpg"
       leftBtnText="Custom Order"
       rightBtnText="Existing Inventory"/>
-      
+      <Section
+        title="Lowest Cost Solar Panel in America"
+        description="Order Online for Touchless Delivery"
+        backgroundImg="solar-panel.jpg"
+        leftBtnText="Order Now"
+        rightBtnText="Learn More"
+      />
+      <Section
+        title="Solar For New Roofs"
+        description="Order Online for Touchless Delivery"
+        backgroundImg="solar-roof.jpg"
+        leftBtnText="Order Now"
+        rightBtnText="Learn More"
+      />
+      <Section
+        title="Accessories"
+        description=""
+        backgroundImg="accessories.jpg"
+        leftBtnText="Shop Now"
+      />
     </Container>
   );
 }

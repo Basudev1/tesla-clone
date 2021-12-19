@@ -10,7 +10,7 @@ function Section({title, description, backgroundImg, leftBtnText, rightBtnText,}
       <Buttons>
       <ButtonGroup>
           <LeftButton>{leftBtnText}</LeftButton>
-            <RightButton>{rightBtnText}</RightButton>
+          {rightBtnText && <RightButton>{rightBtnText}</RightButton>}
       </ButtonGroup>
       <DownedArrow src="./images/down-arrow.svg"/>
       </Buttons>
