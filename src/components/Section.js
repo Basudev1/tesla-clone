@@ -39,6 +39,7 @@ const Wrap = styled.div`
   background-image: ${props => `url("/images/${props.bgImg}")`};
   text-align: center;
   scroll-snap-align: start;
+  // filter: blur(4px);
 `;
 const ItemText = styled.div`
 
