@@ -37,10 +37,13 @@ const Wrap = styled.div`
   justify-content: space-between;
   align-items: center;
   background-image: ${props => `url("/images/${props.bgImg}")`};
+  text-align: center;
+  scroll-snap-align: start;
 `;
 const ItemText = styled.div`
+
   padding-top: 15vh;
-  text-align: center;
+  
 `;
 const ButtonGroup = styled.div`
 display: flex;
@@ -73,14 +76,18 @@ color: black;
 `;
 
 const DownedArrow = styled.img`
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
 height: 40px;
 animation: amimateDown infinite 1.5s;
 margin: 8px;
 margin-left: 248px;
-@media (max-width: 768px) {
+ @media (max-width: 768px) {
   margin-left: 107px;
   
-}
+ }
 `;
 
 const Buttons = styled.div`
